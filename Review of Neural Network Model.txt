@@ -1,0 +1,18 @@
+Review of Neural Network Model
+The analysis's goal
+Building, assessing, and reporting on the effectiveness of a deep neural network model for binary classification is the aim of this investigation. In order to predict if an application will be successful based on a variety of factors, the model is trained on a dataset with the target variable IS_SUCCESSFUL. Our goal in using a deep neural network is to increase prediction accuracy by taking use of the model's capacity to discover connections links in the data.
+
+Goal
+The procedures for creating, assembling, training, and assessing a deep neural network (DNN) model are described in this article. It provides a thorough analysis of the model design, evaluation findings, and possible enhancements or substitutes for this methodology.
+
+Data Preprocessing 1. Which variable or variables are your model's target?
+IS_SUCCESSFUL is our model's target variable. This variable, which we seek to predict given the dataset's attributes, shows whether or not the application was successful.
+
+2. Which variable or variables make up your model's features?
+With the exception of the target variable IS_SUCCESSFUL, all of the variables (columns) in the dataset serve as the features for our model. The model uses these characteristics as input to assist forecast the success of an application. Among the features:
+
+
+3. Since they are neither features nor targets, which variable or variables ought to be eliminated from the input data?
+The dataset may contain some variables that are not directly related to the target or features, nor are they helpful for the model's prediction. These might consist of:
+
+Identifiers or index columns: For instance, any unique identifiers, such as ID, Application_ID, or User_ID, should be eliminated if they are present. These variables are usually simply used as references and don't help anticipate the target.
